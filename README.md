@@ -1,37 +1,42 @@
-# chromium_third_party_boringssl
+# BoringSSL
 
-#### 介绍
-BoringSSL 是google创建的 OpenSSL 分支
+BoringSSL is a fork of OpenSSL that is designed to meet Google's needs.
 
-#### 软件架构
-软件架构说明
+Although BoringSSL is an open source project, it is not intended for general
+use, as OpenSSL is. We don't recommend that third parties depend upon it. Doing
+so is likely to be frustrating because there are no guarantees of API or ABI
+stability.
 
+Programs ship their own copies of BoringSSL when they use it and we update
+everything as needed when deciding to make API changes. This allows us to
+mostly avoid compromises in the name of compatibility. It works for us, but it
+may not work for you.
 
-#### 安装教程
+BoringSSL arose because Google used OpenSSL for many years in various ways and,
+over time, built up a large number of patches that were maintained while
+tracking upstream OpenSSL. As Google's product portfolio became more complex,
+more copies of OpenSSL sprung up and the effort involved in maintaining all
+these patches in multiple places was growing steadily.
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+Currently BoringSSL is the SSL library in Chrome/Chromium, Android (but it's
+not part of the NDK) and a number of other apps/programs.
 
-#### 使用说明
+Project links:
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+  * [API documentation](https://commondatastorage.googleapis.com/chromium-boringssl-docs/headers.html)
+  * [Bug tracker](https://bugs.chromium.org/p/boringssl/issues/list)
+  * [CI](https://ci.chromium.org/p/boringssl/g/main/console)
+  * [Code review](https://boringssl-review.googlesource.com)
 
-#### 参与贡献
+There are other files in this directory which might be helpful:
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+  * [PORTING.md](/PORTING.md): how to port OpenSSL-using code to BoringSSL.
+  * [BUILDING.md](/BUILDING.md): how to build BoringSSL
+  * [INCORPORATING.md](/INCORPORATING.md): how to incorporate BoringSSL into a project.
+  * [API-CONVENTIONS.md](/API-CONVENTIONS.md): general API conventions for BoringSSL consumers and developers.
+  * [STYLE.md](/STYLE.md): rules and guidelines for coding style.
+  * include/openssl: public headers with API documentation in comments. Also [available online](https://commondatastorage.googleapis.com/chromium-boringssl-docs/headers.html).
+  * [FUZZING.md](/FUZZING.md): information about fuzzing BoringSSL.
+  * [CONTRIBUTING.md](/CONTRIBUTING.md): how to contribute to BoringSSL.
+  * [BREAKING-CHANGES.md](/BREAKING-CHANGES.md): notes on potentially-breaking changes.
+  * [SANDBOXING.md](/SANDBOXING.md): notes on using BoringSSL in a sandboxed environment.
