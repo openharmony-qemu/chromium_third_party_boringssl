@@ -1,0 +1,10 @@
+[
+    {
+        "Name": "chromium_third_party_boringssl",                   # 上游开源软件名全称
+        "License": "Khronos License","OpenSSL","OpenSSL|GPLStyleLicense"        # 上游开源软件中包含的许可证信息
+        "License File": "LICENSE",      # 许可证所在文件路径
+        "Version Number": "295b31324f8c557dcd3c1c831857e33a7f23bc52",
+        "Upstream URL": "https://chromium.googlesource.com/boringssl.git@295b31324f8c557dcd3c1c831857e33a7f23bc52",   # 上游软件包发布地址
+        "Description": "第三方软件vulkan-deps/glslang"           # 开源软件功能描述
+    }
+]
