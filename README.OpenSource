@@ -1,6 +1,6 @@
 [
     {
-        "Name": "chromium_third_party_boringssl",                   # 上游开源软件名全称
+        "Name": "boringssl",                   # 上游开源软件名全称
         "License": "OpenSSL","GPLStyleLicense",        # 上游开源软件中包含的许可证信息
         "License File": "LICENSE",      # 许可证所在文件路径
         "Version Number": "295b31324f8c557dcd3c1c831857e33a7f23bc52",
@@ -8,7 +8,7 @@
         "Description": "BoringSSL 是google创建的 OpenSSL 分支"           # 开源软件功能描述
     },
     {
-        "Name": "chromium_third_party_boringssl",                   # 上游开源软件名全称
+        "Name": "boringssl",                   # 上游开源软件名全称
         "License": "Generic Bare Warranty Disclaimer",        # 上游开源软件中包含的许可证信息
         "License File": "LICENSE",      # 许可证所在文件路径
         "Version Number": "295b31324f8c557dcd3c1c831857e33a7f23bc52",
