@@ -1,18 +1,47 @@
 [
     {
-        "Name": "boringssl",                   # 上游开源软件名全称
-        "License": "OpenSSL","GPLStyleLicense",        # 上游开源软件中包含的许可证信息
-        "License File": "LICENSE",      # 许可证所在文件路径
+        "Name": "boringssl",
+        "License": "OpenSSL",
+        "License File": "LICENSE",
         "Version Number": "295b31324f8c557dcd3c1c831857e33a7f23bc52",
-        "Upstream URL": "https://chromium.googlesource.com/boringssl.git@295b31324f8c557dcd3c1c831857e33a7f23bc52",   # 上游软件包发布地址
-        "Description": "BoringSSL 是google创建的 OpenSSL 分支"           # 开源软件功能描述
+        "Owner": "liujixin@huawei.com",
+        "Upstream URL": "https://chromium.googlesource.com/boringssl.git@295b31324f8c557dcd3c1c831857e33a7f23bc52",
+        "Description": "BoringSSL 是google创建的 OpenSSL 分支"
     },
     {
-        "Name": "boringssl",                   # 上游开源软件名全称
-        "License": "Generic Bare Warranty Disclaimer",        # 上游开源软件中包含的许可证信息
-        "License File": "LICENSE",      # 许可证所在文件路径
+        "Name": "boringssl",
+        "License": "Original SSLeay License with Windows Clause",
+        "License File": "LICENSE",
         "Version Number": "295b31324f8c557dcd3c1c831857e33a7f23bc52",
-        "Upstream URL": "https://chromium.googlesource.com/boringssl.git@295b31324f8c557dcd3c1c831857e33a7f23bc52",   # 上游软件包发布地址
-        "Description": "BoringSSL 是google创建的 OpenSSL 分支"           # 开源软件功能描述
+        "Owner": "liujixin@huawei.com",
+        "Upstream URL": "https://chromium.googlesource.com/boringssl.git@295b31324f8c557dcd3c1c831857e33a7f23bc52",
+        "Description": "BoringSSL 是google创建的 OpenSSL 分支"
+    },
+    {
+        "Name": "boringssl",
+        "License": "ISC",
+        "License File": "LICENSE",
+        "Version Number": "295b31324f8c557dcd3c1c831857e33a7f23bc52",
+        "Owner": "liujixin@huawei.com",
+        "Upstream URL": "https://chromium.googlesource.com/boringssl.git@295b31324f8c557dcd3c1c831857e33a7f23bc52",
+        "Description": "BoringSSL 是google创建的 OpenSSL 分支"
+    },
+    {
+        "Name": "boringssl",
+        "License": "MIT",
+        "License File": "LICENSE",
+        "Version Number": "295b31324f8c557dcd3c1c831857e33a7f23bc52",
+        "Owner": "liujixin@huawei.com",
+        "Upstream URL": "https://chromium.googlesource.com/boringssl.git@295b31324f8c557dcd3c1c831857e33a7f23bc52",
+        "Description": "BoringSSL 是google创建的 OpenSSL 分支"
+    },
+    {
+        "Name": "boringssl",
+        "License": "BSD-3-Clause",
+        "License File": "LICENSE",
+        "Version Number": "295b31324f8c557dcd3c1c831857e33a7f23bc52",
+        "Owner": "liujixin@huawei.com",
+        "Upstream URL": "https://chromium.googlesource.com/boringssl.git@295b31324f8c557dcd3c1c831857e33a7f23bc52",
+        "Description": "BoringSSL 是google创建的 OpenSSL 分支"
     }
 ]
