@@ -72,7 +72,6 @@ used to filter file path.
                 <policyitem type="compatibility" name="BSD-2-Clause" path="crypto.*" desc="经法务确认为宽松型许可证" />
                 <policyitem type="compatibility" name="Generic Bare Warranty Disclaimer" path="include.*" desc="经法务确认为宽松型许可证" />
                 <policyitem type="compatibility" name="Generic Bare Warranty Disclaimer" path="crypto.*" desc="经法务确认为宽松型许可证" />
-
                 <policyitem type="compatibility" name="GPLStyleLicense" path="crypto/fipsmodule/aes/asm.*" desc="经法务确认,涉及文件在render下进行了隔离" />
                 <policyitem type="compatibility" name="GPLStyleLicense" path="crypto/fipsmodule/sha/asm.*" desc="经法务确认,涉及文件在render下进行了隔离" />
             </policy>
