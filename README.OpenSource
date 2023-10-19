@@ -10,15 +10,6 @@
     },
     {
         "Name": "boringssl",
-        "License": "Original SSLeay License with Windows Clause",
-        "License File": "LICENSE",
-        "Version Number": "295b31324f8c557dcd3c1c831857e33a7f23bc52",
-        "Owner": "liujixin@huawei.com",
-        "Upstream URL": "https://chromium.googlesource.com/boringssl.git@295b31324f8c557dcd3c1c831857e33a7f23bc52",
-        "Description": "BoringSSL 是google创建的 OpenSSL 分支"
-    },
-    {
-        "Name": "boringssl",
         "License": "ISC",
         "License File": "LICENSE",
         "Version Number": "295b31324f8c557dcd3c1c831857e33a7f23bc52",
