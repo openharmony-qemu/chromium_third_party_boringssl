@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "boringssl",
+        "License": "OpenSSL",
+        "License File": "LICENSE",
+        "Version Number": "571c76e919c0c48219ced35bef83e1fc83b00eed",
+        "Owner": "huamengzheng@huawei.com",
+        "Upstream URL": "https://chromium.googlesource.com/boringssl.git@571c76e919c0c48219ced35bef83e1fc83b00eed",
+        "Description": "BoringSSL 是google创建的 OpenSSL 分支"
+    }
+]
